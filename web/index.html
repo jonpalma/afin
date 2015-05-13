@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/bootstrap-theme.min.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
-<body>
+<body data-spy="scroll" data-target=".navbar-nav" data-offset="0">
     <header>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
             <div class="container">
@@ -24,8 +24,8 @@
                      <span class="icon-bar"></span>
                     </button>
                     <a href="index.html" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="AFIN logotipo" class="img-responsive logo-lg">
-                        <img src="img/logo-sec.jpg" alt="FECHAC logotipo" class="img-responsive">
+                        <img src="img/logo.jpg" alt="AFIN logotipo" class="img-responsive logo-prim">
+                        <img src="img/logo-sec.jpg" alt="FECHAC logotipo" class="img-responsive logo-sec">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="bs-afin-navbar-collapse-1">
@@ -41,7 +41,7 @@
         </nav>
     </header>
     <!-- BEGIN BANNER -->
-    <div class="bg-banner">
+    <div id="inicio" class="bg-banner">
         <div class="jumbotron bg-transparent">
             <div class="container banner">
                 <div class="row">
@@ -54,7 +54,7 @@
     </div>
     <!-- END BANNER -->
     <!-- BEGIN NOSOTROS -->
-    <div class="jumbotron bg-white">
+    <div id="nosotros" class="jumbotron bg-white">
         <div class="container nosotros">
             <div class="row">
                 <h2>¿Qué es?</h2>
@@ -74,7 +74,7 @@
     </div>
     <!-- END NOSOTROS -->
     <!-- BEGIN COMO FUNCIONA -->
-    <div class="jumbotron bg-transparent funciona parallax-container">
+    <div id="como_funciona" class="jumbotron bg-transparent funciona parallax-container">
         <div class="parallax"><img src="img/parallax/1.jpg" alt=""></div>
         <div class="container">
             <div class="row">
@@ -87,7 +87,7 @@
     </div>
     <!-- END COMO FUNCIONA -->
     <!-- BEGIN QUIENES SOMOS -->
-    <div class="jumbotron bg-white">
+    <div id="paquetes" class="jumbotron bg-white">
         <div class="container somos">
             <div class="row margin-bottom">
                 <h2>¿Quiénes somos?</h2>
@@ -160,7 +160,7 @@
     </div>
     <!-- END CINTILLO -->
     <!-- BEGIN CONTACTO -->
-    <div class="jumbotron bg-white">
+    <div id="contacto" class="jumbotron bg-white">
         <div class="container contacto">
             <div class="row">
                 <h2>Contáctanos</h2>
@@ -223,9 +223,11 @@
         <script src="js/materialize.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/app.js"></script>
+        <script src="js/smoothscroll.js"></script>
         <script type="text/javascript">
                 $(document).ready(function(){
                     $('.parallax').parallax();
+                    $('body').scrollspy();
                 });
         </script>
 </footer>

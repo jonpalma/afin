@@ -15,12 +15,8 @@ Text Domain: Mixen Communication & Web Technology
 
 /** MENU **/
 .navbar {
-    height: 133px !important;
+    height: 80px !important;
     background-color: #fff;
-}
-
-.navbar-brand {
-    height: auto !important;
 }
 
 .navbar-brand img {
@@ -37,15 +33,21 @@ Text Domain: Mixen Communication & Web Technology
 }
 
 .navbar-nav > li > a {
-    font: 400 16.14px / 30px 'Varela Round';
+    font: 400 16px / 30px 'Varela Round';
     color: #323232;
     text-transform: uppercase;
+}
+
+.navbar-default .navbar-nav > .active > a, .navbar-default .navbar-nav > .active > a:focus, .navbar-default .navbar-nav > .active > a:hover {
+    background-color: #fff;
+    background-image: none !important;
+    box-shadow: none !important;
 }
 
 /** BACKGROUNDS **/
 .bg-banner {
     background: url('../img/banner/1.jpg') no-repeat;
-    margin-top: 133px;
+    margin-top: 80px;
     height: 816px;
 }
 
@@ -103,6 +105,7 @@ span.blue {
     color: #292929;
     text-align: center;
     margin-bottom: 30px;
+    padding-top: 30px;
 }
 
 .nosotros p {
@@ -222,6 +225,10 @@ span.blue {
     background-color: #0d8bc6;
 }
 
+#sendBttn {
+    width: 100%;
+}
+
 /** PARALLAX **/
 .parallax-container {
   position: relative;
@@ -297,6 +304,8 @@ footer h6 {
 
 /** MISC **/
 body {
+    width: 100% !important;
+    overflow-x: hidden;
     font-family: 'Varela Round';
     font-size: 14px;
 }
@@ -327,4 +336,108 @@ body {
 
 .no-radius {
     border-radius: 0;
+}
+
+/** MEDIA QUERIES **/
+@media (max-width: 767px) {
+.row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.v-offset {
+    top: 0;
+}
+
+.box {
+    height: auto;
+}
+    
+.cintillo h4 {
+    width: 80%;
+}
+
+.form-textfield {
+    margin-bottom: 20px;
+}
+    
+.navbar-brand {
+    padding: 5px 0;
+}
+
+.navbar-default .navbar-collapse {
+    background-color: #fff;
+    border-top: none;
+}
+    
+.navbar-nav > li > a {
+    font-size: 14px;
+}
+
+.somos .box h3.bg-yellow, .somos .box h3.bg-blue {
+    font-size: 18px;
+}
+    
+.btn-limegreen, .btn-yellow, .btn-blue {
+    width: 80%;
+}
+
+.nosotros h2, .funciona h2, .somos h2, .contacto h2 {
+    font-size: 36px;
+}
+    
+}
+
+@media (min-width: 768px) {
+.navbar-nav > li > a {
+    font-size: 12px;
+    padding: 5px;
+}
+    
+.navbar-nav {
+    top: 20px;
+}
+    
+.logo-prim {
+    width: 50%;
+}
+
+.logo-sec {
+    width: 25%;
+}
+    
+.btn-yellow, .btn-blue {
+    width: 80%;
+}
+
+.box {
+    height: 700px;
+}
+
+.somos .box h3.bg-yellow, .somos .box h3.bg-blue {
+    font-size: 18px;
+}
+    
+
+    
+}
+
+@media (min-width: 992px) { 
+.navbar-nav > li > a {
+    font-size: 16px;
+    padding: 15px;
+}
+
+.navbar-nav {
+    top: 10px;
+}
+    
+.btn-yellow, .btn-blue {
+    width: 223px;
+}
+
+.box {
+    height: 500px;
+}
+
 }
