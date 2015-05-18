@@ -67,6 +67,14 @@ Text Domain: Mixen Communication & Web Technology
     background-color: #00aeff;
 }
 
+.bg-green {
+    background-color: #66b11a;
+}
+
+.bg-orange {
+    background-color: #e38e1f;
+}
+
 .bg-navyblue {
     background-color: #00679d;
 }
@@ -87,7 +95,7 @@ Text Domain: Mixen Communication & Web Technology
 }
 
 .banner h5 {
-    font: 400 25px / 50px 'Varela Round';
+    font: 400 25px / 30px 'Varela Round';
     color: #fff;
     text-align: center;
 }
@@ -98,6 +106,10 @@ span.big {
 
 span.blue {
     color: #007eff;
+}
+
+span.orange {
+    color: #e38e1f;
 }
 
 .nosotros h2 {
@@ -115,6 +127,12 @@ span.blue {
     text-align: center;
 }
 
+.nosotros h3 {
+    color: #292929;
+    text-align: center;
+    margin: 30px 0 80px;
+}
+
 .funciona {
     height: 755px;
 }
@@ -124,6 +142,12 @@ span.blue {
     color: #fff;
     text-align: center;
     margin-top: 50px;
+}
+
+.funciona p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
 }
 
 .somos h2 {
@@ -140,7 +164,7 @@ span.blue {
     text-align: center;
 }
 
-.somos .box h3.bg-yellow, .somos .box h3.bg-blue {
+.somos .box h3.bg-yellow, .somos .box h3.bg-green {
     font-size: 22px;
     color: #3e3e3e;
     text-align: center;
@@ -148,7 +172,7 @@ span.blue {
     margin-bottom: 80px;
 }
 
-.somos .box h3.bg-blue {
+.somos .box h3.bg-green {
     color: #fff;
 }
 
@@ -176,7 +200,63 @@ span.blue {
     margin-bottom: 30px;
 }
 
+/** ARROWS **/
+.yellow-arrow, .green-arrow {
+    padding: 0 20px;
+}
+
+.yellow-arrow li::before {
+    content: url('../img/yellow-arrow.png');
+    position: relative;
+    left: -5px;
+}
+
+.yellow-arrow li, .green-arrow li {
+    list-style: none;
+    color: #3e3e3e;
+    font: 400 16px / 30px 'Varela Round';
+    margin-bottom: 20px;
+}
+
+.green-arrow li::before {
+    content: url('../img/green-arrow.png');
+    position: relative;
+    left: -5px;
+}
+
 /** BUTTONS **/
+.btn-green {
+    width: 223px;
+    background-color: #66b11a;
+    border-radius: 0;
+    color: #fff;
+    font-size: 20px;
+    padding: 20px;
+    display: block;
+    margin: 30px auto;
+}
+
+.btn-green:hover {
+    color: #e3e3e3;
+    background-color: #559415;
+}
+
+.btn-white {
+    width: 305px;
+    padding: 20px;
+    color: #495661;
+    background-color: #fff;
+    border-radius: 5px;
+    font-size: 17px;
+    display: block;
+    margin: 0 auto;
+}
+
+.btn-white:hover {
+    color: #3a4147;
+    background-color: #dddcdc;
+}
+
 .btn-limegreen {
     width: 305px;
     padding: 20px;
@@ -282,6 +362,25 @@ footer {
 footer h6 {
     font-size: 18px;
 }
+
+footer p {
+    text-align: right;
+}
+
+footer address {
+    line-height: 24px;
+    text-align: left;
+}
+
+footer address a {
+    color: #fff;
+}
+
+footer address a:hover {
+    color: #e3e3e3;
+    text-decoration: none;
+}
+
 .footer-rights {
     background-color: #262626;
     color: #fff;
@@ -310,8 +409,18 @@ body {
     font-size: 14px;
 }
 
+.social {
+    margin-top: 5px;
+    padding-left: 0;
+}
+
+.social li {
+    display: inline-block;
+    list-style: none;
+}
+
 .box {
-    height: 500px;
+    height: auto;
     border-left: 1px solid rgba(149, 149, 149, 0.3);
     border-right: 1px solid rgba(149, 149, 149, 0.3);
     border-bottom: 1px solid rgba(149, 149, 149, 0.3);
@@ -338,6 +447,10 @@ body {
     border-radius: 0;
 }
 
+.border-left-before {
+    border-left: 1px solid #fff;
+}
+
 /** MEDIA QUERIES **/
 @media (max-width: 767px) {
 .row {
@@ -347,10 +460,6 @@ body {
 
 .v-offset {
     top: 0;
-}
-
-.box {
-    height: auto;
 }
     
 .cintillo h4 {
@@ -368,17 +477,19 @@ body {
 .navbar-default .navbar-collapse {
     background-color: #fff;
     border-top: none;
+    position: relative;
+    top: 28px;
 }
     
 .navbar-nav > li > a {
     font-size: 14px;
 }
 
-.somos .box h3.bg-yellow, .somos .box h3.bg-blue {
+.somos .box h3.bg-yellow, .somos .box h3.bg-green {
     font-size: 18px;
 }
     
-.btn-limegreen, .btn-yellow, .btn-blue {
+.btn-limegreen, .btn-yellow, .btn-green {
     width: 80%;
 }
 
@@ -406,15 +517,11 @@ body {
     width: 25%;
 }
     
-.btn-yellow, .btn-blue {
+.btn-yellow, .btn-green, .btn-limegreen {
     width: 80%;
 }
 
-.box {
-    height: 700px;
-}
-
-.somos .box h3.bg-yellow, .somos .box h3.bg-blue {
+.somos .box h3.bg-yellow, .somos .box h3.bg-green {
     font-size: 18px;
 }
     
@@ -432,12 +539,9 @@ body {
     top: 10px;
 }
     
-.btn-yellow, .btn-blue {
+.btn-yellow, .btn-green {
     width: 223px;
 }
 
-.box {
-    height: 500px;
-}
 
 }
