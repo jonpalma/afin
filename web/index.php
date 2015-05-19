@@ -1,50 +1,10 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <title>AFIN Patrimonial</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="author" content="Agencia Mixen www.mixen.mx">
-    <meta name="description" content="">
-    <meta name="keywords" content="">
-    <!-- CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <link rel="stylesheet" href="css/bootstrap-theme.min.css">
-    <link rel="stylesheet" href="css/style.css">
-</head>
-<body data-spy="scroll" data-target=".navbar-nav" data-offset="0">
-    <header>
-        <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
-            <div class="container">
-                <div class="navbar-header">
-                    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-afin-navbar-collapse-1">
-                     <span class="sr-only">Toggle navigation</span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                     <span class="icon-bar"></span>
-                    </button>
-                    <a href="index.html" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="AFIN logotipo" class="img-responsive logo-prim">
-                        <img src="img/logo-sec.jpg" alt="FECHAC logotipo" class="img-responsive logo-sec">
-                    </a>
-                </div>
-                <div class="collapse navbar-collapse navbar-right" id="bs-afin-navbar-collapse-1">
-                  <ul class="nav navbar-nav">
-                      <li><a href="#inicio" class="smoothScroll">Inicio</a></li>
-                      <li><a href="#nosotros" class="smoothScroll">Nosotros</a></li>
-                      <li><a href="#como_funciona" class="smoothScroll">Como Funciona</a></li>
-                      <li><a href="#paquetes" class="smoothScroll">Paquetes</a></li>
-                      <li><a href="#contacto" class="smoothScroll">Contáctanos</a></li>
-                  </ul>
-                </div>
-            </div>
-        </nav>
-    </header>
+<?php  include('modules/header.php'); ?>
     <!-- BEGIN BANNER -->
     <div id="inicio" class="bg-banner">
         <div class="jumbotron bg-transparent">
             <div class="container banner">
                 <div class="row">
+                   <img src="img/png/index1.png" alt="AFIN ADN" class="img-responsive center-block">
                     <h3>Un futuro más seguro para</h3>
                     <h5>todos está en sus aulas...<br />pero, solos no pueden.</h5>
                     <a href="#" class="btn btn-white">¡Apóyalos ahora!</a>
@@ -88,15 +48,18 @@
         <div class="parallax"><img src="img/parallax/1.jpg" alt=""></div>
         <div class="container">
             <div class="row">
-               <h2>¿Cómo funciona?</h2>
-                <div class="col-sm-4">
-                    <p>Selecciona cualquiera de las 3 opciones para ayudar.</p>
+               <h2 class="margin-bottom">¿Cómo funciona?</h2>
+                <div class="col-sm-4 margin-top">
+                   <img src="img/png/index2.png" alt="" class="img-responsive center-block">
+                    <p class="margin-top">Selecciona cualquiera de las 3 opciones para ayudar.</p>
                 </div>
-                <div class="col-sm-4">
-                    <p>Déjanos tus datos y un asesor se comunicará contigo.</p>
+                <div class="col-sm-4 margin-top">
+                   <img src="img/png/index3.png" alt="" class="img-responsive center-block">
+                    <p class="margin-top">Déjanos tus datos y un asesor se comunicará contigo.</p>
                 </div>
-                <div class="col-sm-4">
-                    <p>Comparte esta información con colaboradores, familiares y amigos.</p>
+                <div class="col-sm-4 margin-top">
+                   <img src="img/png/index4.png" alt="" class="img-responsive center-block">
+                    <p class="margin-top">Comparte esta información con colaboradores, familiares y amigos.</p>
                 </div>
             </div>
         </div>
@@ -123,7 +86,7 @@
                             <li>Sumas aseguradas de $500,000, $1,000,000 y $2,000,000.</li>
                             <li>Edades de contratación: 18 a 70 años.</li>
                         </ul>
-                        <a href="#" class="btn btn-yellow">Ver más</a>
+                        <a href="producto1.php" class="btn btn-yellow">Ver más</a>
                    </div>
                 </div>
                 <div class="col-sm-4 v-offset">
@@ -135,7 +98,7 @@
                             <li>Seguro de autos, vida, accidentes y funerario.</li>
                             <li>Solo ayúdanos a difundirlo entre tus colaboradores, con su aportación más niños beneficiados.</li>
                         </ul>
-                        <a href="#" class="btn btn-green">Ver más</a>
+                        <a href="producto3.php" class="btn btn-green">Ver más</a>
                    </div>
                 </div>
                 <div class="col-sm-4">
@@ -147,7 +110,7 @@
                             <li>Sin compromiso de compra, tú decides y además ayudas.</li>
                             <li>Tenemos atractivos planes de prestaciones para tus colaboradores.</li>
                         </ul>
-                        <a href="#" class="btn btn-yellow">Ver más</a>
+                        <a href="producto2.php" class="btn btn-yellow">Ver más</a>
                    </div> 
                 </div>
             </div>
@@ -157,7 +120,7 @@
     <!-- BEGIN CINTILLO -->
     <div class="container-fluid bg-orange">
         <div class="row cintillo padding">
-            <img src="img/casa.png" alt="" class="img-responsive center-block">
+            <img src="img/png/index5.png" alt="" class="img-responsive center-block">
             <h3>Al día de hoy hay más de <span class="big">60</span> escuelas beneficiadas.</h3>
             <h4>¡Y con tu ayuda vamos por más!</h4>
         </div>
@@ -203,66 +166,4 @@
         </div>
     </div>
     <!-- END CONTACTO -->
-    <!-- FOOTER -->
-    <footer class="bg-black">
-       <div class="container">
-           <div class="row margin-top margin-bottom">
-           <div class="col-sm-5">
-               <div class="col-sm-6">
-                   <p>AFIN Patrimonial S.C.</p>
-                   <p>Chihuahua, Chih, México</p>
-               </div>
-               <div class="col-sm-6">
-                   <address>
-                       C.California No. 4109-C<br />
-                       Col.Quintas del Sol. C.P. 31214.<br />
-                       Chihuahua, Chih.<br />
-                       Tel. 614 430 29 01<br />
-                       <a href="http://afinpatrimonial.com">www.afinpatrimonial.com</a>
-                       <ul class="social">
-                           <li><a href="#"><img src="img/fb.png" alt="" class="img-responsive"></a></li>
-                           <li><a href="#"><img src="img/twt.png" alt="" class="img-responsive"></a></li>
-                       </ul>
-                   </address>
-               </div>
-           </div>
-           <div class="col-sm-2"></div>
-           <div class="col-sm-5">
-               <div class="col-sm-6">
-                   <p>Fundación del Empresariado<br />Chihuahuense. A.C.</p>
-                   <p>Chihuahua, Chih, México</p>
-               </div>
-               <div class="col-sm-6 border-left-before">
-                   <address>
-                       Prolongación Teófilo Borunda # 10820.<br />
-                       Col.Labor de Terrazas. C.P. 31223.<br />
-                       Tel. (01 614) 413 20 20<br />
-                       <a href="http://fechac.org">www.fechac.org</a>
-                       <ul class="social">
-                           <li><a href="#"><img src="img/fb.png" alt="" class="img-responsive"></a></li>
-                           <li><a href="#"><img src="img/twt.png" alt="" class="img-responsive"></a></li>
-                       </ul>
-                   </address>
-               </div>
-           </div>
-           </div>
-       </div>
-       <div class=" container-fluid bg-gray footer-rights">
-          <div class="row">
-              <h4>Todos los derechos reservados <span>ADN</span> 2015 | Design by: <a href="http://mixen.mx"><img src="http://mixen.mx/firma/logo-mixen.png" alt="Agencia Mixen"> mixen.mx</a></h4>
-          </div>
-       </div>
-        <script src="js/jquery.min.js"></script>
-        <script src="js/materialize.min.js"></script>
-        <script src="js/bootstrap.min.js"></script>
-        <script src="js/app.js"></script>
-        <script src="js/smoothscroll.js"></script>
-        <script type="text/javascript">
-                $(document).ready(function(){
-                    $('.parallax').parallax();
-                    $('body').scrollspy();
-                });
-        </script>
-</footer>
-</body>
-</html>
+<?php  include('modules/footer.php'); ?>
