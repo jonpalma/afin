@@ -52,6 +52,8 @@
         <script src="js/materialize.min.js"></script>
         <script src="js/bootstrap.min.js"></script>
         <script src="js/app.js"></script>
+        <script src="js/download.js"></script>
+        <script src="js/insurance.js"></script>
         <script src="js/smoothscroll.js"></script>
         <script type="text/javascript">
                 $(document).ready(function(){

@@ -117,7 +117,7 @@ para grupos.</small></p>
             <div class="row">
                 <h2>Contáctanos para una propuesta</h2>
                 <div class="col-sm-12">
-                    <form action="mailer.php" id="ajax-contact" class="form-horizontal">
+                    <form action="mailer3.php" id="ajax-insurace" class="form-horizontal">
                            <div class="form-group">
                                <div class="col-sm-6">
                                    <input type="text" class="form-control form-textfield" id="contacto_nombre" name="nombreContacto" placeholder="Nombre del títular">
@@ -130,15 +130,15 @@ para grupos.</small></p>
                                <div class="col-sm-6">
                                    <select id="contacto_sexo" name="sexoContacto" class="form-control form-selectfield">
                                        <option value="" class="form-selectfield">Sexo</option>
-                                       <option value="m" class="form-selectfield">Masculino</option>
-                                       <option value="f" class="form-selectfield">Femenino</option>
+                                       <option value="M" class="form-selectfield">Masculino</option>
+                                       <option value="F" class="form-selectfield">Femenino</option>
                                    </select>
                                </div>
                                <div class="col-sm-6">
                                    <select id="contacto_fuma" name="fumaContacto" class="form-control form-selectfield">
                                        <option value="" class="form-selectfield">Fuma</option>
-                                       <option value="si" class="form-selectfield">Sí</option>
-                                       <option value="no" class="form-selectfield">No</option>
+                                       <option value="SI" class="form-selectfield">Sí</option>
+                                       <option value="NO" class="form-selectfield">No</option>
                                    </select>
                                </div>
                            </div>
@@ -146,9 +146,9 @@ para grupos.</small></p>
                                <div class="col-sm-6">
                                    <select id="contacto_suma" name="sumaContacto" class="form-control form-selectfield">
                                        <option value="" class="form-selectfield">Suma Asegurada</option>
-                                       <option value="500000" class="form-selectfield">$500,000</option>
-                                       <option value="1000000" class="form-selectfield">$1,000,000</option>
-                                       <option value="2000000" class="form-selectfield">$2,000,000</option>
+                                       <option value="500,000" class="form-selectfield">$500,000</option>
+                                       <option value="1,000,000" class="form-selectfield">$1,000,000</option>
+                                       <option value="2,000,000" class="form-selectfield">$2,000,000</option>
                                    </select>
                                </div>
                                <div class="col-sm-6">
@@ -188,26 +188,26 @@ para grupos.</small></p>
        <div class="row padding">
            <h2>¿Necesitas más información?</h2>
            <div class="col-sm-12">
-                    <form action="#" id="ajax-contact" class="form-horizontal">
+                    <form action="mailer2.php" id="ajax-download" class="form-horizontal">
                            <div class="form-group">
                                <div class="col-sm-4">
-                                   <input type="text" class="form-control form-textfield form-black" id="contacto_nombre" name="nombreContacto" placeholder="Nombre">
+                                   <input type="text" class="form-control form-textfield form-black" id="download_nombre" name="nombreDownload" placeholder="Nombre">
                                </div>
                                <div class="col-sm-4">
-                                   <input type="text" class="form-control form-textfield form-black" id="contacto_telefono" name="telContacto" placeholder="Teléfono">
+                                   <input type="text" class="form-control form-textfield form-black" id="download_telefono" name="telDownload" placeholder="Teléfono">
                                </div>
                                <div class="col-sm-4">
-                                   <input type="email" class="form-control form-textfield form-black" id="contacto_email" name="emailContacto" placeholder="Correo electrónico">
+                                   <input type="email" class="form-control form-textfield form-black" id="download_email" name="emailDownload" placeholder="Correo electrónico">
                                </div>  
                            </div>
                            <div class="form-group">
                                <div class="col-sm-12 margin-top">
-                                   <button type="submit" id="sendBttn" class="center-block btn btn-limegreen no-radius">Descargar información</button>
+                                   <button type="submit" id="sendBttnD" class="center-block btn btn-limegreen no-radius">Descargar información</button>
                                </div>
                            </div>
                     </form>
                     <div class="col-sm-12">
-                        <div id="form-messages" role="alert"></div>
+                        <div id="download-messages" role="alert"></div>
                     </div>
                 </div>
        </div>

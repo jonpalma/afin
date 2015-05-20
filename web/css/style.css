@@ -406,7 +406,7 @@ span.orange {
     background-color: #0d8bc6;
 }
 
-#sendBttn {
+#sendBttn, #sendBttnD {
     width: 231px;
 }
 

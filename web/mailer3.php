@@ -71,14 +71,20 @@
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["nombreContacto"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
-        $email = filter_var(trim($_POST["emailContacto"]), FILTER_SANITIZE_EMAIL);
+        $edad = trim($_POST["edadContacto"]);
+        $sexo = trim($_POST["sexoContacto"]);
+        $fuma = trim($_POST["fumaContacto"]);
+        $suma = trim($_POST["sumaContacto"]);
+        $frecuencia = trim($_POST["frecuenciaContacto"]);
         $tel = trim($_POST["telContacto"]);
-        $empresa = trim($_POST["nombreEmpresa"]);
-        $puesto = trim($_POST["puestoContacto"]);
+        $email = filter_var(trim($_POST["emailContacto"]), FILTER_SANITIZE_EMAIL);
+        
         
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL)
+             OR empty($edad) OR empty($sexo) OR empty($fuma) OR empty($suma)
+            OR empty($frecuencia) OR empty($tel)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! Hubo un error con su envío. Por favor complete la forma y envíela de nuevo.";
@@ -93,12 +99,14 @@
         $subject = "Contactar a $name";
 
         // Build the email content.
-        $email_content = "Nombre: $name\n";
+        $email_content  = "Nombre: $name\n";
+        $email_content .= "Edad: $edad\n";
+        $email_content .= "Genero: $sexo\n";
+        $email_content .= "Fuma: $fuma\n";
+        $email_content .= "Suma Asegurada: $$suma\n";
+        $email_content .= "Frecuencia del pago Anual: $frecuencia\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Empresa: $empresa\n\n";
-        $email_content .= "Puesto:\n$puesto\n";
-
         // Build the email headers.
         $email_headers = "De: $name <$email>";
 

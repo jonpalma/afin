@@ -7,7 +7,7 @@
                    <img src="img/png/index1.png" alt="AFIN ADN" class="img-responsive center-block">
                     <h3>Un futuro más seguro para</h3>
                     <h5>todos está en sus aulas...<br />pero, solos no pueden.</h5>
-                    <a href="#" class="btn btn-white">¡Apóyalos ahora!</a>
+                    <a href="#paquetes" class="smoothScroll btn btn-white">¡Apóyalos ahora!</a>
                 </div>
             </div>
         </div>

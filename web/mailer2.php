@@ -69,16 +69,14 @@
     // Only process POST requests.
     if ($_SERVER["REQUEST_METHOD"] == "POST") {
         // Get the form fields and remove whitespace.
-        $name = strip_tags(trim($_POST["nombreContacto"]));
+        $name = strip_tags(trim($_POST["nombreDownload"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
-        $email = filter_var(trim($_POST["emailContacto"]), FILTER_SANITIZE_EMAIL);
-        $tel = trim($_POST["telContacto"]);
-        $empresa = trim($_POST["nombreEmpresa"]);
-        $puesto = trim($_POST["puestoContacto"]);
+        $email = filter_var(trim($_POST["emailDownload"]), FILTER_SANITIZE_EMAIL);
+        $tel = trim($_POST["telDownload"]);
         
 
         // Check that data was sent to the mailer.
-        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL)) {
+        if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL) OR empty($tel)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! Hubo un error con su envío. Por favor complete la forma y envíela de nuevo.";
@@ -96,9 +94,6 @@
         $email_content = "Nombre: $name\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Empresa: $empresa\n\n";
-        $email_content .= "Puesto:\n$puesto\n";
-
         // Build the email headers.
         $email_headers = "De: $name <$email>";
 
