@@ -606,6 +606,10 @@ body {
 .somos .box h3.bg-yellow, .somos .box h3.bg-green {
     font-size: 18px;
 }
+
+.btn-limegreen {
+    font-size: 14px;
+}    
     
 .btn-limegreen, .btn-yellow, .btn-green {
     width: 80%;
