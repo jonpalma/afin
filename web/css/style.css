@@ -410,11 +410,12 @@ span.orange {
     width: 231px;
 }
 
-/** PARALLAX **/
+/* Modified Parallax CSS by Chris */
 .parallax-container {
-  position: relative;
-  overflow: hidden;
-  /*height: 500px;*/ 
+    position: relative;
+    overflow: hidden;
+    min-height: 200px; /* Cambiar este valor segun requiera la página */
+    height: auto;
 }
 
 .parallax {
@@ -430,8 +431,8 @@ span.orange {
     display: none;
     position: absolute;
     bottom: 0;
+    min-width: 1920px;
     width: 100%;
-    min-height: 100%;
     background-position: center; 
 }
 
