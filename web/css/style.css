@@ -1,4 +1,4 @@
-/*
+﻿/*
 Theme Name: ADN / FECHAC
 Theme URI: http://ADN.com
 Author: Agencia Mixen
@@ -46,7 +46,11 @@ Text Domain: Mixen Communication & Web Technology
 
 /** BACKGROUNDS **/
 .bg-banner {
-    background: url('../img/parallax/index1.jpg') no-repeat;
+    background: url('../img/parallax/index1.jpg') no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
     margin-top: 80px;
     height: 816px;
 }
