@@ -9,8 +9,8 @@
                </div>
                <div class="col-sm-6">
                    <address>
-                       C.California No. 4109-C<br />
-                       Col.Quintas del Sol. C.P. 31214.<br />
+                       C. California No. 4109-C<br />
+                       Col. Quintas del Sol. C.P. 31214.<br />
                        Chihuahua, Chih.<br />
                        Tel. 614 430 29 01<br />
                        <a href="http://afinpatrimonial.com">www.afinpatrimonial.com</a>

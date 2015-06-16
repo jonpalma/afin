@@ -23,16 +23,16 @@
                      <span class="icon-bar"></span>
                      <span class="icon-bar"></span>
                     </button>
-                    <a href="index.html" class="navbar-brand">
-                        <img src="img/logo.jpg" alt="AFIN logotipo" class="img-responsive logo-prim">
-                        <img src="img/logo-sec.jpg" alt="FECHAC logotipo" class="img-responsive logo-sec">
+                    <a href="index.php" class="navbar-brand">
+                        <img src="img/logo.png" alt="AFIN logotipo" class="img-responsive logo-prim">
+                        <img src="img/logo-sec.png" alt="FECHAC logotipo" class="img-responsive logo-sec">
                     </a>
                 </div>
                 <div class="collapse navbar-collapse navbar-right" id="bs-afin-navbar-collapse-1">
                   <ul class="nav navbar-nav">
                       <li><a href="index.php#inicio" class="smoothScroll">Inicio</a></li>
-                      <li><a href="index.php#nosotros" class="smoothScroll">Nosotros</a></li>
-                      <li><a href="index.php#como_funciona" class="smoothScroll">Como Funciona</a></li>
+                      <li><a href="index.php#nosotros" class="smoothScroll">¿Quiénes Sómos?</a></li>
+                      <li><a href="index.php#como_funciona" class="smoothScroll">¿Cómo Funciona?</a></li>
                       <li><a href="index.php#paquetes" class="smoothScroll">Paquetes</a></li>
                       <li><a href="index.php#contacto" class="smoothScroll">Contáctanos</a></li>
                   </ul>

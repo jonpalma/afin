@@ -1,4 +1,4 @@
-﻿/*
+/*
 Theme Name: ADN / FECHAC
 Theme URI: http://ADN.com
 Author: Agencia Mixen
@@ -15,12 +15,19 @@ Text Domain: Mixen Communication & Web Technology
 
 /** MENU **/
 .navbar {
-    height: 80px !important;
+    height: 100px !important;
     background-color: #fff;
+    padding-top: 7px;
+}
+
+.navbar-brand {
+    width: 165%;
+    
 }
 
 .navbar-brand img {
-    float: left;
+    max-height: 60px;
+    width: auto;
 }
 
 .navbar-default {
@@ -29,7 +36,6 @@ Text Domain: Mixen Communication & Web Technology
 
 .navbar-nav {
     position: relative;
-    top: 30px;
 }
 
 .navbar-nav > li > a {
@@ -46,7 +52,7 @@ Text Domain: Mixen Communication & Web Technology
 
 /** BACKGROUNDS **/
 .bg-banner {
-    background: url('../img/parallax/index1.jpg') no-repeat center center;
+    background: url(../img/banner/index1.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -56,7 +62,7 @@ Text Domain: Mixen Communication & Web Technology
 }
 
 .bg-transparent {
-    background-color: rgba(0, 103, 157, .58) !important;
+    background-color: rgba(0, 103, 157, 0) !important;
     height: inherit;
 }
 .bg-white {
@@ -109,7 +115,11 @@ Text Domain: Mixen Communication & Web Technology
 
 /** SECCIONES **/
 .banner {
-    padding: 200px 0;
+    padding: 100px 0;
+}
+
+.banner-img-center {
+    margin: 40px auto;
 }
 
 .banner h3 {
@@ -141,7 +151,7 @@ span.orange {
     text-align: center;
     margin-top: 80px;
     height: 336px;
-    font-weight: 700;
+    font-weight: 400;
 }
 
 .heading h2 {
@@ -149,7 +159,7 @@ span.orange {
 }
 
 .heading p {
-    font-size: 18px;
+    font-size: 21px;
 }
 
 .nosotros h2 {
@@ -162,9 +172,10 @@ span.orange {
 
 .nosotros p {
     color: #292929;
-    font-size: 16px;
-    line-height: 30px;
     text-align: center;
+    max-width: 1000px;
+    margin: 40px auto;
+    font: 400 22px / 30px Varela Round;
 }
 
 .nosotros h3 {
@@ -173,11 +184,23 @@ span.orange {
     margin: 30px 0 80px;
 }
 
+#como_apoyar.parallax-container {
+    min-height: 356px;
+    padding-top: 50px;
+}
+
+#como_apoyar p {
+    font: 400 24px / 30px Varela Round;
+    margin: 40px auto;
+    color: #fff;
+    text-align: center;
+}
+
 .funciona {
     height: 755px;
 }
 
-.funciona h2 {
+.funciona h2, #como_apoyar h2 {
     font-size: 50px;
     color: #fff;
     text-align: center;
@@ -190,12 +213,39 @@ span.orange {
     text-align: center;
 }
 
+.somos {
+    padding: 70px 0;
+}
+
 .somos h2 {
     font-size: 50px;
     color: #5b5b5b;
     text-align: center;
     margin-top: 50px;
     margin-bottom: 30px;
+}
+
+.green-header, .yellow-header {
+    text-align: center;
+    margin: auto;
+    padding: 15px;
+    width: 237px;
+    height: 62px;
+    position: relative;
+    font: 400 24px / 30px Varela Round;
+    border: #ffffff solid 3px;
+    z-index: 5;
+    top: 49px;
+}
+
+.yellow-header {
+    background-color: #ffde00;
+    color: #5b5b5b;
+}
+
+.green-header {
+    color: #fff;
+    background-color: #66b11a;
 }
 
 .somos p {
@@ -216,10 +266,39 @@ span.orange {
     color: #fff;
 }
 
+.orangepart, .contribuye {
+    text-align: center;
+}
+
+.orangepart h3, .contribuye h3 {
+    font: 400 50.75px / 50.067px Varela Round;
+    color: #fff;
+}
+
+.orangepart h4, .contribuye h4 {
+    margin: 40px auto;
+    font: 400 40.75px / 40.067px Varela Round;
+    color: #fff;
+}
+
+.orangepart p, .contribuye p {
+    font: 400 18px / 30px Varela Round;
+    color: #fff;
+}
+
+.contribuye p, .contribuye h3, .contribuye h4 {
+    color: #292929;
+}
+
+.contribuye h4 {
+    margin-top: -30px;
+}
+
 .cintillo h3 {
     font-size: 23px;
     color: #fefefe;
     text-align: center;
+    color: #fff;
 }
 
 .cintillo h4 {
@@ -233,11 +312,23 @@ span.orange {
 }
 
 .contacto h2 {
+    font-family: Varela Round;
     font-size: 50px;
     color: #5b5b5b;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 30px;
     margin-bottom: 30px;
+}
+
+.contacto {
+    margin-bottom: 100px;
+}
+
+.contacto p {
+    font: 400 18px / 30px Varela Round;
+    color: #5b5b5b;
+    margin: -10px auto 50px auto;
+    text-align: center;
 }
 
 .informacion {
@@ -261,33 +352,57 @@ span.orange {
     font-size: 12px;
 }
 
+.bg-producto3 h2 {
+    font-size: 50px;
+}
+
+.bg-producto3 p {
+    font-size 24px;
+}
+
 .coberturas {
-    color: #fff;
+    color: #66b11a;
 }
 
 .coberturas h2 {
     font-size: 50px;
     text-align: center;
-    margin: 30px 0 50px;
+    margin: -20px 0 70px 0;
 }
 
 .coberturas table {
     border-collapse: collapse;
-    margin-bottom: 30px;
+    margin: 0px auto 30px auto;
 }
 
-.coberturas table, .coberturas td {
-    border: 4px solid #fff;
+.coberturas table.green, .coberturas .green td {
+    border: 4px solid #66b11a;
+}
+
+.coberturas table.yellow, .coberturas .yellow td{
+    border: 4px solid #ffde00;
 }
 
 .coberturas th {
     height: 92px;
     background-color: #fff;
-    color: #e67f2c;
     text-align: center;
     text-transform: uppercase;
     font-size: 25px;
     padding: 20px 0;
+}
+
+.coberturas .green th {
+    color: #fff;
+    background-color: #66b11a;
+}
+
+.coberturas .yellow th {
+    background-color: #ffde00;
+}
+
+.coberturas .yellow {
+    color: #000;
 }
 
 .coberturas td {
@@ -295,13 +410,19 @@ span.orange {
     padding: 10px;
 }
 
-.coberturas p {
-    margin-top: 50px;
+.coberturas p {    
+    margin-top: 15px;
     text-align: center;
     line-height: 14px;
 }
 
-.coberturas p  small {
+.coberturas p.bottom {
+    text-align: center;
+    margin-top: 50px;
+    line-height: 30px;
+}
+
+.coberturas p small {
     font-size: 14px;
 }
 
@@ -371,6 +492,7 @@ span.orange {
     font-size: 17px;
     display: block;
     margin: 0 auto;
+    height: 68px;
 }
 
 .btn-limegreen:hover {
@@ -380,6 +502,7 @@ span.orange {
 
 .btn-yellow {
     width: 223px;
+    height: 68px;
     background-color: #ffde00;
     border-radius: 0;
     color: #fff;
@@ -413,6 +536,20 @@ span.orange {
 #sendBttn, #sendBttnD {
     width: 231px;
 }
+
+.nosotros.beneficios h2 {
+    margin-bottom: 90px;
+}
+
+.beneficios.coberturas {
+    color: #fff;
+}
+
+.beneficios.coberturas p {
+    font-size: 14px;
+}
+
+
 
 /* Modified Parallax CSS by Chris */
 .parallax-container {
@@ -498,7 +635,6 @@ footer address a:hover {
     background-color: #262626;
     color: #fff;
     padding: 5px 0;
-    margin-bottom: 30px;
     
 }
 
@@ -535,6 +671,7 @@ body {
 }
 
 .box {
+    position: relative;
     height: auto;
     border-left: 1px solid rgba(149, 149, 149, 0.3);
     border-right: 1px solid rgba(149, 149, 149, 0.3);
@@ -601,7 +738,7 @@ body {
     background-color: #fff;
     border-top: none;
     position: relative;
-    top: 28px;
+    top: 3px;
 }
     
 .navbar-nav > li > a {
@@ -646,10 +783,12 @@ body {
     
 .logo-prim {
     width: 50%;
+    float: left;
 }
 
 .logo-sec {
     width: 25%;
+    float: right;
 }
     
 .btn-yellow, .btn-green, .btn-limegreen {
@@ -658,6 +797,8 @@ body {
 
 .somos .box h3.bg-yellow, .somos .box h3.bg-green {
     font-size: 18px;
+    height: 113px;
+    padding-top: 60px;
 }
     
 .coberturas td {
@@ -669,22 +810,66 @@ body {
 }
 
 @media (min-width: 992px) { 
-.navbar-nav > li > a {
-    font-size: 16px;
-    padding: 15px;
-}
+    .navbar-nav > li > a {
+        font-size: 16px;
+        padding: 15px;
+    }
 
-.navbar-nav {
-    top: 10px;
-}
+    .navbar-nav {
+        top: 10px;
+    }
     
-.btn-yellow, .btn-green {
-    width: 223px;
+    .btn-yellow, .btn-green {
+        width: 223px;
+    }
+
+    .coberturas td {
+        font-size: 17px;
+    }
+
+
 }
+
+@media (max-width: 1200px) {
+    .navbar-brand {
+        margin-left: -40px !important;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar-brand > img {
+        display: inline;
+        margin: 0 40px 0 20px;
+        max-height: 40px;
+    }
     
-.coberturas td {
-    font-size: 17px;
+    .navbar-brand {
+        width: auto;
+    }
+    
+    .navbar {
+        height: 60px !important;
+    }
+    
+    .bg-banner {
+        margin-top: 60px;
+    }
+}
+.big-header {
+    font-size: 50px;
+    color: #fff;
+    margin: 5px auto;
+    text-align: center;
 }
 
+.small-p {
+    font-size: 18px !important;
+}
 
+.texto-naranja p {
+    color: #e38e1f;
+}
+
+.texto-naranja h2 {
+    color: #292929;
 }

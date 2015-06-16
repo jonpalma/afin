@@ -71,11 +71,6 @@
         // Get the form fields and remove whitespace.
         $name = strip_tags(trim($_POST["nombreContacto"]));
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
-        $edad = trim($_POST["edadContacto"]);
-        $sexo = trim($_POST["sexoContacto"]);
-        $fuma = trim($_POST["fumaContacto"]);
-        $suma = trim($_POST["sumaContacto"]);
-        $frecuencia = trim($_POST["frecuenciaContacto"]);
         $tel = trim($_POST["telContacto"]);
         $email = filter_var(trim($_POST["emailContacto"]), FILTER_SANITIZE_EMAIL);
         
@@ -83,8 +78,7 @@
 
         // Check that data was sent to the mailer.
         if ( empty($name) OR !filter_var($email, FILTER_VALIDATE_EMAIL)
-             OR empty($edad) OR empty($sexo) OR empty($fuma) OR empty($suma)
-            OR empty($frecuencia) OR empty($tel)) {
+             OR empty($tel)) {
             // Set a 400 (bad request) response code and exit.
             http_response_code(400);
             echo "Oops! Hubo un error con su envío. Por favor complete la forma y envíela de nuevo.";
@@ -93,18 +87,13 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "lazaro.reyes@mixen.mx";
+        $recipient = "lazaro.reyes@mixen.mx, jon.palma@mixen.mx, chris.jaquez@mixen.mx";
 
         // Set the email subject.
         $subject = "Contactar a $name";
 
         // Build the email content.
         $email_content  = "Nombre: $name\n";
-        $email_content .= "Edad: $edad\n";
-        $email_content .= "Genero: $sexo\n";
-        $email_content .= "Fuma: $fuma\n";
-        $email_content .= "Suma Asegurada: $$suma\n";
-        $email_content .= "Frecuencia del pago Anual: $frecuencia\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Email: $email\n\n";
         // Build the email headers.

@@ -34,7 +34,7 @@ $(function() {
             $('#download_email').val('');
 			$('#download_telefono').val('');
             $("#sendBttnD").text("Enviar");
-            $(location).attr('href', 'index.php');
+            $(location).attr();
 		})
 		.fail(function(data) {
 			// Make sure that the formMessages div has the 'error' class.

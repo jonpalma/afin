@@ -14,173 +14,61 @@
     <div class="jumbotron bg-white">
         <div class="container nosotros">
             <div class="row">
-                <h2>¿En que contribuye?</h2>
-                <p>
-                    El programa ADN está contribuyendo en <span class="orange">mejorar las oportunidades de desarrollo de niñas y niños de nivel básico</span>, a través de extender la jornada escolar con actividades artísticas, deportivas, recreativas y de asistencia académica, prestando especial atención a la alimentación saludable. 
-                </p>
-            </div>
-            <div class="row margin-top">
                <h2>Tú puedes ayudarlos</h2>
                 <p>
-                    Al adquirir este seguro de vida un porcentaje será donado para apoyar a los niños beneficiarios del programa.
-                    
+                   <strong> Al adquirir este seguro de vida <span class="orange">un porcentaje será donado</span> para apoyar <br> a los niños beneficiarios del  programa ADN.      </strong>
                 </p>
             </div>
         </div>
     </div>
 <!-- END CONTRIBUCIÓN -->
-<!-- BEGIN BENEFICIOS -->
-    <div class="jumbotron bg-orange">
-        <div class="container coberturas">
-            <div class="row">
-                <h2>Beneficios</h2>
-                <div class="col-sm-3">
-                    <img src="img/png/p2-beneficios/1.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Más de ___________ niños<br /> beneficiados y con tu ayuda vamos<br /> por más</small></p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/png/p2-beneficios/2.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Si alguno de tus seguros<br /> empresariales esta por vencer,<br /> nosotros te ayudamos</small></p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/png/p2-beneficios/3.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Sin compromiso de compra, tú<br /> decides y además ayudas</small></p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/png/p2-beneficios/4.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Tenemos atractivos planes de<br /> prestaciones para tus colaboradores.</small></p>
-                </div>
-                <div class="clearfix"></div>
-            </div>
-        </div>
-    </div>
-<!-- END BENEFICIOS -->
-<!-- BEGIN SEGUROS -->
-    <div class="jumbotron bg-white">
-        <div class="container nosotros">
-            <div class="row">
-                <h2>¿Qué son los seguros empresariales?</h2>
-                <p>
-                    Son todas aquellas pólizas que tenga o requiera contratar la empresa como un beneficio para sus empleados o para proteger el patrimonio de la misma.
-                </p>
-                <p>
-                    Los seguros que pones a su disposición son:
-                    
-                </p>
-            </div>
-        </div>
-    </div>
-<!-- END SEGUROS -->
 <!-- BEGIN SEGUROS LISTA -->
-    <div class="jumbotron bg-limegreen">
+<div class="jumbotron bg-limegreen">
+    <div class="container">
+        <h3 class="big-header">¿Qué seguros puedo contratar para <br> mi empresa?</h3>
+    </div>
+</div>
+    <div class="jumbotron bg-white">
         <div class="container coberturas">
             <div class="row">
                 <h2>Beneficios</h2>
                 <div class="row margin-bottom">
                     <div class="col-sm-4">
                         <img src="img/png/p2-beneficios/seguro1.png" alt="" class="img-responsive center-block">
-                        <p class="no-margin"><small>Póliza de bienes empresariales</small></p>
+                        <p><small>Póliza de bienes empresariales</small></p>
                     </div>
                     <div class="col-sm-4">
                         <img src="img/png/p2-beneficios/seguro2.png" alt="" class="img-responsive center-block">
-                        <p class="no-margin"><small>Flotillas de vehículos o equipo<br /> 
+                        <p><small>Flotillas de vehículos o equipo<br /> 
 de transporte</small></p>
                     </div>
                     <div class="col-sm-4">
                         <img src="img/png/p2-beneficios/seguro3.png" alt="" class="img-responsive center-block">
-                        <p class="no-margin"><small>Servicio Funerario</small></p>
+                        <p><small>Servicio Funerario</small></p>
                     </div>
                 </div>
                 <div class="row margin-bottom">
                     <div class="col-sm-4">
                         <img src="img/png/p2-beneficios/seguro4.png" alt="" class="img-responsive center-block">
-                        <p class="no-margin"><small>Planes dentales</small></p>
-                    </div>
-                    <div class="col-sm-4">
-                        <img src="img/png/p2-beneficios/seguro6.png" alt="" class="img-responsive center-block">
-                        <p class="no-margin"><small>Seguro de vida para grupos</small></p>
+                        <p><small>Planes dentales</small></p>
                     </div>
                     <div class="col-sm-4">
                         <img src="img/png/p2-beneficios/seguro5.png" alt="" class="img-responsive center-block">
-                        <p class="no-margin"><small>Seguro de gastos médicos mayores<br /> 
+                        <p><small>Seguro de vida para grupos</small></p>
+                    </div>
+                    <div class="col-sm-4">
+                        <img src="img/png/p2-beneficios/seguro6.png" alt="" class="img-responsive center-block">
+                        <p><small>Seguro de gastos médicos mayores<br /> 
 para grupos.</small></p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
             </div>
+            <p class="bottom">Protege el patrimonio de tu empresa o mejora los beneficios para tus empleados, un porcentaje de lo que
+            contrates será donado al Programa ADN Ampliando el Desarrollo de los Niños.</p>
         </div>
     </div>
 <!-- END SEGUROS LISTA -->
-<!-- BEGIN COTIZACIÓN -->
-    <div id="contacto" class="jumbotron bg-white">
-        <div class="container contacto">
-            <div class="row">
-                <h2>Contáctanos para una propuesta</h2>
-                <div class="col-sm-12">
-                    <form action="mailer3.php" id="ajax-insurace" class="form-horizontal">
-                           <div class="form-group">
-                               <div class="col-sm-6">
-                                   <input type="text" class="form-control form-textfield" id="contacto_nombre" name="nombreContacto" placeholder="Nombre del títular">
-                               </div>
-                               <div class="col-sm-6">
-                                   <input type="text" class="form-control form-textfield" id="contacto_edad" name="edadContacto" placeholder="Edad">
-                               </div>  
-                           </div>
-                           <div class="form-group">
-                               <div class="col-sm-6">
-                                   <select id="contacto_sexo" name="sexoContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Sexo</option>
-                                       <option value="M" class="form-selectfield">Masculino</option>
-                                       <option value="F" class="form-selectfield">Femenino</option>
-                                   </select>
-                               </div>
-                               <div class="col-sm-6">
-                                   <select id="contacto_fuma" name="fumaContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Fuma</option>
-                                       <option value="SI" class="form-selectfield">Sí</option>
-                                       <option value="NO" class="form-selectfield">No</option>
-                                   </select>
-                               </div>
-                           </div>
-                           <div class="form-group">
-                               <div class="col-sm-6">
-                                   <select id="contacto_suma" name="sumaContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Suma Asegurada</option>
-                                       <option value="500,000" class="form-selectfield">$500,000</option>
-                                       <option value="1,000,000" class="form-selectfield">$1,000,000</option>
-                                       <option value="2,000,000" class="form-selectfield">$2,000,000</option>
-                                   </select>
-                               </div>
-                               <div class="col-sm-6">
-                                   <select id="contacto_frecuencia" name="frecuenciaContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Frecuencia del pago anual</option>
-                                       <option value="1" class="form-selectfield">Algo</option>
-                                       <option value="2" class="form-selectfield">Otro</option>
-                                   </select>
-                               </div>
-                           </div>
-                           <div class="form-group">
-                                <div class="col-sm-6">
-                                   <input type="text" class="form-control form-textfield" id="contacto_telefono" name="telContacto" placeholder="Teléfono">
-                               </div>
-                               <div class="col-sm-6">
-                                   <input type="email" class="form-control form-textfield" id="contacto_email" name="emailContacto" placeholder="Correo electrónico">
-                               </div>
-                           </div>
-                           <div class="form-group">
-                               <div class="col-sm-12">
-                                   <button type="submit" id="sendBttn" class="pull-right btn btn-limegreen no-radius">Enviar</button>
-                               </div>
-                           </div>
-                    </form>
-                    <div class="col-sm-12">
-                        <div id="form-messages" role="alert"></div>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- END COTIZACIÓN -->
 <!-- BEGIN INFORMACIÓN -->
 <div class="container-fluid parallax-container bg-contacto informacion margin-bottom-plus">
    <div class="parallax"><img src="img/parallax/contacto.jpg" alt="" class="img-responsive"></div>
@@ -214,4 +102,79 @@ para grupos.</small></p>
    </div>
 </div>
 <!-- END INFORMACIÓN -->
+<!-- BEGIN CONTRIBUCIÓN -->
+<div class="jumbotron bg-white">
+    <div class="container nosotros contribuye">
+        <div class="row margin-top">
+           <h3>¿En qué contribuye el programa ADN</h3>
+            <h4> a la sociedad Chihuahuense?</h4>
+            <p>Actuando en un modelo de responsabilidad social compartida, AFIN Patrimonial y Fechac suman esfuerzos para promover una cultura de participación, en la que cada persona y empresa puede contribuir a <span class="orange">mejorar la calidad de la educación de nuestros niños</span>, dando respuesta a una necesidad crítica de la comunidad.</p>
+            <p><span class="orange">Únete</span> y se parte de las empresas que apoyan el Programa ADN, con tu colaboración un porcentaje de la adquisición de seguros será destinado para beneficiar a mas escuelas en el Estado de Chihuahua.</p>
+            </div>
+    </div>
+</div>
+<!-- BEGIN BENEFICIOS -->
+    <div class="jumbotron bg-orange">
+        <div class="container beneficios coberturas">
+            <div class="row">
+                <h2>¿Qué beneficios obtienes?</h2>
+                <div class="col-sm-3">
+                    <img src="img/png/p2-beneficios/4.png" alt="" class="img-responsive center-block">
+                    <p>Contamos con atractivos planes de<br /> prestaciones para tus colaboradores.</p>
+                    
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/png/p2-beneficios/3.png" alt="" class="img-responsive center-block">
+                    <p>Obtén mejores condiciones para tus <br>seguros y apora a niños <br>chihuahuenses.</p>
+                    
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/png/p2-beneficios/2.png" alt="" class="img-responsive center-block">
+                    <p>Trabajamos con 11 aseguradores <br>distintas para ofrecerte las mejores <br>condiciones.</p>
+                    
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/png/p2-beneficios/1.png" alt="" class="img-responsive center-block">
+                    <p><strong>6,350</strong> niños beneficiados y con tu ayuda vamos por más.</p>
+                </div>
+                <div class="clearfix"></div>
+            </div>
+        </div>
+    </div>
+<!-- END BENEFICIOS -->
+<!-- BEGIN COTIZACIÓN -->
+    <div id="contacto" class="jumbotron bg-white">
+        <div class="container contacto">
+            <div class="row">
+                <h2>Contáctanos para una propuesta</h2>
+                <br>
+                <br>
+                <br>
+                <div class="col-sm-12">
+                    <form action="mailer3.php" id="ajax-insurace" class="form-horizontal">
+                           <div class="form-group">
+                               <div class="col-sm-6">
+                                   <input type="text" class="form-control form-textfield" id="contacto_nombre" name="nombreContacto" placeholder="Nombre del títular">
+                               </div>
+                               <div class="col-sm-6">
+                                   <input type="email" class="form-control form-textfield" id="contacto_email" name="emailContacto" placeholder="Correo electrónico">
+                               </div> 
+                           </div>                           
+                           <div class="form-group">
+                                <div class="col-sm-6">
+                                   <input type="text" class="form-control form-textfield" id="contacto_telefono" name="telContacto" placeholder="Teléfono">
+                               </div>
+                               <div class="col-sm-6">
+                                   <button type="submit" id="sendBttn" class="pull-right btn btn-limegreen no-radius">Enviar</button>
+                               </div>                               
+                           </div>
+                    </form>
+                    <div class="col-sm-12">
+                        <div id="form-messages" role="alert"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+<!-- END COTIZACIÓN -->
 <?php  include('modules/footer.php'); ?>

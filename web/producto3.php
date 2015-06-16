@@ -5,6 +5,7 @@
    <div class="container">
        <div class="row padding">
            <h2>Implant Tecnológico</h2>
+           <p>"¡Contigo un futuro más seguro para <br>Chihuahua!"</p>
        </div>
    </div>
 </div>
@@ -13,61 +14,20 @@
     <div class="jumbotron bg-white">
         <div class="container nosotros">
             <div class="row">
-                <h2>¿En que contribuye?</h2>
-                <p>
-                    Con tu ayuda se podrá continuar impulsando el Programa ADN (Ampliando el Desarrollo de los Niños) que ofrece a<br /> niños y adolescentes la posibilidad de una formación integral que <span class="orange">incluye su crecimiento físico, emocional,<br /> intelectual y cívico.</span>
+                <h2>Tú puedes ayudarlos</h2>
+                <p>Al implementar y difundir el IMPLANT en tu empresa,<span class="orange"> un porcentaje de lo que adquieran tus empleados será donado</span> para apoyar a más niños e incluir a más escuelas en el Programa ADN.
                 </p>
-                <p>
-                    Con tu colaboración y la de tus empleados, un porcentaje de la adquisición de seguros será donado para apoyar a más niños e incluir a más escuelas en ADN.
-                    
+                <br class="margin-top">
+                <h2>¿Qué es el Implant Tecnológico?</h2>
+                <p class="small-p">
+                    Es un micrositio en el cual el empleado podrá tener acceso a seguro de autos, seguro de vida, seguro de accidentes y al servicio funerario integral, con facilidades de pago
+                </p>
+                <p class="small-p">El empleado podrá adquirir cualquiera de estos seguros y pagar con su tarjeta de nómina en el portal, además podrán consultar sus dudas con nuestros asesores de forma inmediata a través del chat en línea.                  
                 </p>
             </div>
         </div>
     </div>
 <!-- END CONTRIBUCIÓN -->
-<!-- BEGIN BENEFICIOS -->
-    <div class="jumbotron bg-orange">
-        <div class="container coberturas">
-            <div class="row">
-                <h2>Beneficios</h2>
-                <div class="col-sm-3">
-                    <img src="img/png/p3-beneficios/1.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>con tu contribución ayudas a<br />mejorar el futuro de los niños<br /> chihuahuenses.</small></p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/png/p3-beneficios/4.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Protección integral, que te da beneficios en vida.</small></p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/png/p3-beneficios/2.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Sumas aseguradas de $500,000,<br />$1,000,000 y $2,000,000.</small></p>
-                </div>
-                <div class="col-sm-3">
-                    <img src="img/png/p3-beneficios/3.png" alt="" class="img-responsive center-block">
-                    <p class="no-margin"><small>Edades de contratación: 18 a<br /> 70 años.</small></p>
-                </div>
-            </div>
-        </div>
-    </div>
-<!-- END BENEFICIOS -->
-<!-- BEGIN IMPLANT -->
-    <div class="jumbotron bg-white">
-        <div class="container nosotros">
-            <div class="row">
-                <h2>¿Qué es el Implant Tecnológico?</h2>
-                <p>
-                    Es un micrositio en el cual el empleado puede tener acceso a través de su computadora a seguro de autos, seguro de vida, seguro de accidentes y al servicio funerario integral, los cuales el empleado podrá proteger su patrimonio, sin gastar más ya que ofrecemos facilidades de pago mensuales, quincenales y hasta semanales.
-                </p>
-                <p>
-                    El empleado podrá adquirir cualquiera de estos seguros y pagar con su tarjeta de nómina en el portal, además podrán consultar sus dudas con nuestros asesores de forma inmediata a través del chat en línea.     
-                </p>
-                <p>
-                    En conjunto con la empresa los guiamos paso a paso para la implementación y difusión del Implant, además cada vez que algún empleado o familiar del mismo adquiera alguna póliza un porcentaje se destinara a la causa Modelo ADN, con el objetivo de prevenir el crimen y la violencia a través de la educación, para generar ciudadanos comprometidos con su comunidad.
-                </p>
-            </div>
-        </div>
-    </div>
-<!-- END IMPLANT -->
 <!-- BEGIN INFORMACIÓN -->
 <div class="container-fluid parallax-container bg-contacto informacion">
    <div class="parallax"><img src="img/parallax/contacto.jpg" alt="" class="img-responsive"></div>
@@ -101,11 +61,54 @@
    </div>
 </div>
 <!-- END INFORMACIÓN -->
+<!-- BEGIN BENEFICIOS -->
+    <div class="jumbotron bg-white">
+        <div class="container coberturas texto-naranja">
+            <div class="row margin-top">
+                <h2>Beneficios</h2>
+                <div class="col-sm-3">
+                    <img src="img/png/p3-beneficios/1.png" alt="" class="img-responsive center-block">
+                    <p><small>El micrositio no tiene costo para las empresas que deseen implementarlo.</small></p>
+                </div>
+                
+                <div class="col-sm-3">
+                    <img src="img/png/p3-beneficios/2.png" alt="" class="img-responsive center-block">
+                    <p><small>Te acompañamos paso a paso en su implementación y difusión.</small></p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/png/p3-beneficios/3.png" alt="" class="img-responsive center-block">
+                    <p><small>Cualquier material publicitario va por nuestra cuenta.</small></p>
+                </div>
+                <div class="col-sm-3">
+                    <img src="img/png/p3-beneficios/4.png" alt="" class="img-responsive center-block">
+                    <p><small>Con tu contribución ayudas a mejorar el futuro de los niños chihuahuenses.</small></p>
+                </div>
+            </div>
+        </div>
+        <br class="margin-top">
+    </div>
+<!-- END BENEFICIOS -->
+<!-- BEGIN ORANGEPART -->
+<div class="bg-orange">
+    <div class="container">
+        <div class="row padding orangepart">
+            <h3>¿En qué contribuye el programa ADN</h3>
+            <h4> a la sociedad Chihuahuense?</h4>
+            <p>Con tu ayuda se podrá continuar impulsando el Programa ADN (Ampliando el Desarrollo de los Niños) que ofrece a niños y adolescentes la posibilidad de una formación integral que incluye su crecimiento físico, emocional, intelectual y cívico.</p>
+            <br>
+            <p>Con tu colaboración y la de tus empleados, un porcentaje de la adquisición de seguros será donado para apoyar a más niños e incluir a más escuelas en ADN.</p>
+        </div>
+    </div>
+</div>
+<!-- END ORANGEPART -->
 <!-- BEGIN COTIZACIÓN -->
     <div id="contacto" class="jumbotron bg-white">
         <div class="container contacto">
             <div class="row">
-                <h2>Solicita asesoría para implementación</h2>
+                <h2>Solicitar asesoria para implementación</h2>
+                <br>
+                <br>
+                <br>
                 <div class="col-sm-12">
                     <form action="mailer3.php" id="ajax-insurace" class="form-horizontal">
                            <div class="form-group">
@@ -113,54 +116,16 @@
                                    <input type="text" class="form-control form-textfield" id="contacto_nombre" name="nombreContacto" placeholder="Nombre del títular">
                                </div>
                                <div class="col-sm-6">
-                                   <input type="text" class="form-control form-textfield" id="contacto_edad" name="edadContacto" placeholder="Edad">
-                               </div>  
-                           </div>
-                           <div class="form-group">
-                               <div class="col-sm-6">
-                                   <select id="contacto_sexo" name="sexoContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Sexo</option>
-                                       <option value="M" class="form-selectfield">Masculino</option>
-                                       <option value="F" class="form-selectfield">Femenino</option>
-                                   </select>
-                               </div>
-                               <div class="col-sm-6">
-                                   <select id="contacto_fuma" name="fumaContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Fuma</option>
-                                       <option value="SI" class="form-selectfield">Sí</option>
-                                       <option value="NO" class="form-selectfield">No</option>
-                                   </select>
-                               </div>
-                           </div>
-                           <div class="form-group">
-                               <div class="col-sm-6">
-                                   <select id="contacto_suma" name="sumaContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Suma Asegurada</option>
-                                       <option value="500,000" class="form-selectfield">$500,000</option>
-                                       <option value="1,000,000" class="form-selectfield">$1,000,000</option>
-                                       <option value="2,000,000" class="form-selectfield">$2,000,000</option>
-                                   </select>
-                               </div>
-                               <div class="col-sm-6">
-                                   <select id="contacto_frecuencia" name="frecuenciaContacto" class="form-control form-selectfield">
-                                       <option value="" class="form-selectfield">Frecuencia del pago anual</option>
-                                       <option value="1" class="form-selectfield">Algo</option>
-                                       <option value="2" class="form-selectfield">Otro</option>
-                                   </select>
-                               </div>
-                           </div>
+                                   <input type="email" class="form-control form-textfield" id="contacto_email" name="emailContacto" placeholder="Correo electrónico">
+                               </div> 
+                           </div>                           
                            <div class="form-group">
                                 <div class="col-sm-6">
                                    <input type="text" class="form-control form-textfield" id="contacto_telefono" name="telContacto" placeholder="Teléfono">
                                </div>
                                <div class="col-sm-6">
-                                   <input type="email" class="form-control form-textfield" id="contacto_email" name="emailContacto" placeholder="Correo electrónico">
-                               </div>
-                           </div>
-                           <div class="form-group">
-                               <div class="col-sm-12">
                                    <button type="submit" id="sendBttn" class="pull-right btn btn-limegreen no-radius">Enviar</button>
-                               </div>
+                               </div>                               
                            </div>
                     </form>
                     <div class="col-sm-12">

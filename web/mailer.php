@@ -73,8 +73,6 @@
 				$name = str_replace(array("\r","\n"),array(" "," "),$name);
         $email = filter_var(trim($_POST["emailContacto"]), FILTER_SANITIZE_EMAIL);
         $tel = trim($_POST["telContacto"]);
-        $empresa = trim($_POST["nombreEmpresa"]);
-        $puesto = trim($_POST["puestoContacto"]);
         
 
         // Check that data was sent to the mailer.
@@ -87,7 +85,7 @@
 
         // Set the recipient email address.
         // FIXME: Update this to your desired email address.
-        $recipient = "lazaro.reyes@mixen.mx";
+        $recipient = "lazaro.reyes@mixen.mx, jon.palma@mixen.mx, chris.jaquez@mixen.mx";
 
         // Set the email subject.
         $subject = "Contactar a $name";
@@ -96,8 +94,6 @@
         $email_content = "Nombre: $name\n";
         $email_content .= "Tel: $tel\n\n";
         $email_content .= "Email: $email\n\n";
-        $email_content .= "Empresa: $empresa\n\n";
-        $email_content .= "Puesto:\n$puesto\n";
 
         // Build the email headers.
         $email_headers = "De: $name <$email>";
