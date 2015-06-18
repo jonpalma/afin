@@ -17,26 +17,16 @@
         <div class="container nosotros">
             <div class="row">
                 <h2>¿Quiénes somos?</h2>
-                <p>
-                    AFIN Patrimonial y FECHAC buscan sumar esfuerzos para implementar un modelo de responsabilidad social compartida, que a la vez
-                    de incrementar la cultura de prevención contribuya al mejoramiento de nuestra comunidad.
-                </p>
-                <p>
-                    Qué mejor manero de hacerlo que apoyando el programa conocido como ADN (Ampliando el desarrollo de los niños) que ofrece
-                    las condifciones para que niños y adolescentes tengan <span class="orange">mejores oportunidades de salud y desarrollo físico, además de impulsar
-                    su desarrollo formativo</span> a través de actividades extra escolares que se imparten en horario extendido en sus escuelas,
-                    facilitando el desarrollo de habilidades, actitudes y prácticas socialmente responsables en los niños y jóvenes, ya sea individuales, con
-                    su familia y con su medio ambiente.
-                    
-                </p>
+                <p>AFIN Patrimonial en alianza estratégica con Fechac busca apoyar el Programa ADN para beneficiar a niños en situación de vulnerabilidad a través de “seguros con causa”.</p>
+                <p>Con el modelo ADN, <span class="orange">los niños y adolescentes mejoran su aprovechamiento escolar,</span> al recibir  todos los días alimento sano y nutritivo. Al mismo tiempo, desarrollan destrezas tanto en deportes como el fútbol y basquetbol, como habilidades artísticas para tocar guitarra y flauta, lo cual sin duda ha ampliado su visión de futuro y sus planes de vida.</p>
             </div>
             <div class="row" style="margin-top: 70px;">
                 <div class="col-sm-12">
                     <div class="col-sm-5">
-                        <a href="#" class="btn btn-limegreen no-radius">¿Quién es AFIN</a>
+                        <a href="pdf/quien-es-afin.pdf" class="btn btn-limegreen no-radius">¿Quién es AFIN</a>
                     </div>
                     <div class="col-sm-2"></div>
-                    <div class="col-sm-5"><a href="#" class="btn btn-limegreen no-radius">¿Quién es Fechac?</a></div>
+                    <div class="col-sm-5"><a href="pdf/quien-es-fechac.pdf" class="btn btn-limegreen no-radius">¿Quién es Fechac?</a></div>
                 </div>
             </div>
         </div>

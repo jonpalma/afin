@@ -49,7 +49,7 @@
                            </div>
                            <div class="form-group">
                                <div class="col-sm-12 margin-top">
-                                   <button type="submit" id="sendBttnD" class="center-block btn btn-limegreen no-radius">Descargar información</button>
+                                   <button type="submit" id="sendBttnD" class="center-block btn btn-limegreen no-radius">Enviar</button>
                                </div>
                            </div>
                     </form>
